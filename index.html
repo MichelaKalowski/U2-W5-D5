@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <div>
                 <svg class="logo" xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
                     viewBox="0 0 3940 610" height="25">
@@ -22,17 +22,17 @@
                 </svg>
             </div>
             <div class="menu">
-                <p>
-                    <a href="#">Our Story</a>
-                    <a href="#">Membership</a>
-                    <a href="#">Write</a>
-                    <a href="#">Sign In</a>
-                    <button>Get Started</button>
-                </p>
+
+                <span><a href="#">Our Story</a></span>
+                <span><a href="#">Membership</a></span>
+                <span><a href="#">Write</a></span>
+                <span><a href="#">Sign In</a></span>
+                <span><button class="button">Get Started</button></span>
+
             </div>
         </nav>
-            <div class="container1">
-                <div>
+        <div class="container1">
+            <div>
                 <h1>Stay curious.</h1>
                 <p>Discover stories, thinking, and expertise from writers on any topic.</p>
                 <button>Start reading</button>
@@ -5347,57 +5347,332 @@
 
     </header>
     <main>
-        <div class="container2">
+        <div class="container-2-title">
             <div>
-                <img src="./assets/imgs/image01.jpeg" alt="img1">
-                <h5>01
-                    Tom Cooper
-                    </h5>
-                <h2>Ukraine War, 23 October 2022</h2>
-                <p>Oct 23·5 min read</p>
+                <img src="./assets/imgs/svg/trending.svg" alt="trending">
             </div>
             <div>
-                <img src="./assets/imgs/image02.png" alt="img2">
-                <h5>02
-                    Arthur Hayes in Entrepreneur's Handbook
-                    </h5>
-                <h2>Comeback</h2>
-                <p>Oct 26·24 min read</p>
-            </div>
-            <div>
-                <img src="./assets/imgs/image03.jpeg" alt="img3">
-                <h5>03
-                    Tom Cooper
-                    </h5>
-                <h2>How I Learned to Love My Breasts Even Though One Is A Horcrux For Voldemort</h2>
-                <p>Oct 26·2 min read</p>
-            </div>
-            <div>
-                <img src="./assets/imgs/image04.png" alt="img4">
-                <h5>04
-                    Frank Mastropolo in The Riffk
-                    </h5>
-                <h2>The Night Paul McCartney Donned a Disguise at Fillmore East</h2>
-                <p>Oct 22·3 min read</p>
-            </div>
-            <div>
-                <img src="./assets/imgs/image05.jpeg" alt="img5">
-                <h5>05
-                    Frank Andrade in Towards Data Science
-                    </h5>
-                <h2>5 Python Projects to Automate Your Life: From Beginner to Advanced</h2>
-                <p>Oct 13·6 min read</p>
-            </div>
-            <div>
-                <img src="./assets/imgs/image06.png" alt="img6">
-                <h5>06
-                    Wesley Smits in JavaScript in Plain English
-                    </h5>
-                <h2>How To Make Visual Studio Code Look Amazing</h2>
-                <p>Oct 20·7 min read</p>
-            </div>
+                TRENDING ON MEDIUM</div>
         </div>
+
+            <div class="container2">
+                <div class="article">
+                    <div id="number">01</div>
+                    <div class="article-content">
+                        <div class="article-content-1">
+                           <img src="./assets/imgs/image01.jpeg" alt="img1">
+                            <h5>Tom Cooper</h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>Ukraine War, 23 October 2022</h2>
+                        </div>
+                        <div class="article-content-1">
+                            <p>Oct 23·5 min read</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div id="number">02</div>
+                    <div class="article-content">
+                        <div class="article-content-1">
+                            <img src="./assets/imgs/image02.png" alt="img2">
+                            <h5>
+                                Arthur Hayes in Entrepreneur's Handbook
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>Comeback</h2>
+                        </div>
+                        <div class="article-content-1">
+                            <p>Oct 26·24 min read</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div id="number">03</div>
+                    <div class="article-content">
+                        <div class="article-content-1">
+
+                            <img src="./assets/imgs/image03.jpeg" alt="img3">
+                            <h5>
+                                Tom Cooper
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>How I Learned to Love My Breasts Even Though One Is A Horcrux For Voldemort</h2>
+                        </div>
+                        <div class="article-content-1">
+                            <p>Oct 26·2 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div id="number">04</div>
+                    <div class="article-content">
+                        <div class="article-content-1">
+
+                            <img src="./assets/imgs/image04.png" alt="img4">
+                            <h5>
+                                Frank Mastropolo in The Riffk
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>The Night Paul McCartney Donned a Disguise at Fillmore East</h2>
+                        </div>
+                        <div class="article-content-1">
+                            <p>Oct 22·3 min read</p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div id="number">05</div>
+                    <div class="article-content">
+                        <div class="article-content-1">
+
+                            <img src="./assets/imgs/image05.jpeg" alt="img5">
+                            <h5>
+                                Frank Andrade in Towards Data Science
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>5 Python Projects to Automate Your Life: From Beginner to Advanced</h2>
+                        </div>
+                        <div class="article-content-1">
+                            <p>Oct 13·6 min read</p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div id="number">06</div>
+                    <div class="article-content">
+                        <div class="article-content-1">
+
+                            <img src="./assets/imgs/image06.png" alt="img6">
+                            <h5>
+                                Wesley Smits in JavaScript in Plain English
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>How To Make Visual Studio Code Look Amazing</h2>
+                        </div>
+                        <div class="article-content-1">
+                            <p>Oct 20·7 min read</p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container4">
+            <div class="container3">
+                <div class="article article-2">
+                    <div class="article-content">
+                        <div class="article-content-1">
+                            <img src="./assets/imgs/image07.jpeg" alt="img7">
+                            <h5>
+                                Robert Roy Britt
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>How Old is Old?</h2>
+                        </div>
+                        <p>What we consider “old” changes dramatically with age, and our perspectives can be predictive of how well we age</p>
+                        <div class="article-content-1">
+                            <p>Oct 27 · 5 min read · <button>Aging</button> </p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                            <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+                        </div>
+                    
+                    </div>
+                    <div class="article-content-2">
+                        <img src="./assets/imgs/image08.jpeg" alt="img8">
+                    </div>
+                
+                </div>
+                <div class="article article-2">
+                    <div class="article-content">
+                        <div class="article-content-1">
+                            <img src="./assets/imgs/image09.jpeg" alt="img9">
+                            <h5>
+                                Taru Anniina Liikanen
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>Is Taylor Swift Allowed to Speak About Fat?</h2>
+                        </div>
+                        <p>Can you speak about your trauma if you don't look traumatized?</p>                            </p>
+                        <div class="article-content-1">
+                            <p>Oct 24 · 6 min read · <button>Health</button> </p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                            <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="article-content-2">
+                        <img src="./assets/imgs/image10.jpeg" alt="img10">
+                    </div>
+                </div>
+                <div class="article article-2">
+                    <div class="article-content">
+                        <div class="article-content-1">
+                            <img src="./assets/imgs/image11.jpeg" alt="img11">
+                            <h5>
+                                David Rodenas, Ph. D.
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>Don’t Screw Up, You Will Be Found Guilty</h2>
+                        </div>
+                        <p>Software Engineer, yours is the right to produce high-quality work at all times, also the liability.</p>                            </p>
+                        <div class="article-content-1">
+                            <p>Oct 15 · 5 min read · <button>Software Engineering</button></p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                            <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="article-content-2">
+                        <img src="./assets/imgs/image12.png" alt="img12">
+                    </div>
+                </div>
+                <div class="article article-2">
+
+                    <div class="article-content">
+                        <div class="article-content-1">
+                            <img src="./assets/imgs/image13.png" alt="img13">
+                            <h5>
+                                Microsoft Design
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>Leave No Trace</h2>
+                        </div>
+                        <p>How product designers can break from the status quo and help our planet
+                            </p>
+                        <div class="article-content-1">
+                            <p>Oct 25 · 11 min read · <button>Sustainability</button> </p>
+                            <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+
+                        </div>
+                    </div>
+                    <div class="article-content-2">
+                        <img src="./assets/imgs/image14.png" alt="img14">
+                    </div>
+                </div>
+                <div class="article article-2">
+
+                    <div class="article-content">
+                        <div class="article-content-1">
+
+                            <img src="./assets/imgs/image15.jpeg" alt="img15">
+                            <h5>
+                                Scott H. Young
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>Variability, Not Repetition, is the Key to Mastery</h2>
+                        </div>
+                        <p>Bruce Lee is reported to have said, “I fear not the man who has practiced 10,000 kicks once, but the man who has practiced one kick 10,000...
+                            </p>
+                        <div class="article-content-1">
+                            <p>Oct 26 · 7 min read · <button>Learning</button></p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                            <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="article-content-2">
+                       <img src="./assets/imgs/image16.jpg" alt="img16">
+                    </div>
+                </div>
+                <div class="article article-2">
+
+                    <div class="article-content">
+                        <div class="article-content-1">
+
+                            <img src="./assets/imgs/image17.png" alt="img17">
+                            <h5>
+                                Paul A. DeStefanoin Human Parts
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>What I Overheard as an Escape Room Actor</h2>
+                        </div>
+                        <p>Lock a group of people in a room and you’ll witness some surprising confessions                             
+                            </p>
+                        <div class="article-content-1">
+                            <p>Jan 18, 2020 · 6 min read · <button>Experiences</button> </p>
+                            <img src="./assets/imgs/svg/star.svg" alt="star">
+                            <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="article-content-2">
+                        <img src="./assets/imgs/image18.jpeg" alt="img18">
+                    </div>
+                </div>
+                <div class="article article-2">
+
+                    <div class="article-content">
+                        <div class="article-content-1">
+
+                            <img src="./assets/imgs/image19.jpeg" alt="img19">
+                            <h5>
+                                Kim Scott
+                            </h5>
+                        </div>
+                        <div class="article-content-1">
+                            <h2>6 Steps for Setting Measurable Goals to Avoid “Productivity Paranoia”</h2>
+                        </div>
+                        <p>With more people working in remote and hybrid environments than ever before, company, team and individual goals must be explicit and…</p>
+                        <div class="article-content-1">
+                            <p>Oct 24 · 6 min read · <button>Productivity</button> </p>
+                            <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+
+                        </div>
+                    </div>
+                    <div class="article-content-2">
+                       <img src="./assets/imgs/image20.jpg" alt="img20">
+                    </div>
+                </div>
+            </div>
+            <div class="discover">
+                <div class="discover-title">DISCOVER MORE OF WHAT MATTERS TO TOU</div>
+                <button>Programming</button>
+                <button>Data Science</button>
+                <button>Technology</button>
+                <button>Self Improvement</button>
+                <button>Writing</button>
+                <button>Relationships</button>
+                <button>Machine Learning</button>
+                <button>Productivity</button>
+                <button>Politics</button>
+
+
+
+                <div class="lista">
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Writers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Knowable</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+                </div>
+                
+        
+        
+                
     </main>
+    <script src="./index.js"></script>
 </body>
 
 </html>
