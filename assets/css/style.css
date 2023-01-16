@@ -65,6 +65,7 @@ nav a {
     flex-wrap: wrap;
     align-items: center;
     margin-left: 80px;
+    
 }
 
 .stay-curious {
@@ -130,8 +131,9 @@ header button {
     width: 60%;
     margin-left: 60px;
     margin-right: 60px;
-
 }
+
+
 .container3 h2{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -213,6 +215,10 @@ header button {
 .article-content-2 img{
     width: 100%;
     border-radius: 0px;
+}
+.article-content-1 .bookmark{
+    display: flex;
+    justify-content: space-between;
 }
 
 
